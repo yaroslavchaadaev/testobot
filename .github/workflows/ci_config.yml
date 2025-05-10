@@ -33,7 +33,7 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: yaroslav/telegram-bot:latest
+          tags: yaroslavchaadaev/telegram-bot:latest
         env:
           DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
           DOCKERHUB_TOKEN:  ${{ secrets.DOCKERHUB_TOKEN }}
